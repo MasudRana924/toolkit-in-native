@@ -35,7 +35,7 @@
 // export default userSlice.reducer;
 
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { publicPost } from './apiCaller';
+import { publicPost } from '../../../apiCaller';
 
 
 export const createUserRegister = createAsyncThunk(

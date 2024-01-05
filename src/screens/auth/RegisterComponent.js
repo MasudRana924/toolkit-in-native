@@ -2,7 +2,8 @@ import React from 'react';
 import { useState } from 'react';
 import { StyleSheet, Text, TouchableOpacity, View,TextInput } from 'react-native';
 import { useDispatch, useSelector } from 'react-redux';
-import { createUserRegister } from './userSLice';
+import { createUserRegister } from '../../state/auth/userSLice';
+
 const RegisterComponent = () => {
     const dispatch = useDispatch();
     const {isLoading} = useSelector((state) => state.user);
